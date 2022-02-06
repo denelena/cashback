@@ -1,15 +1,14 @@
 package com.company;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         int startBalance = 155;
         int depositAmount = 544;
         int bonusAmount = 0;
 
-        if(depositAmount >= 1000)
+        if (depositAmount >= 1000) {
             bonusAmount = depositAmount / 100;
+        }
 
         int finalBalance = startBalance + depositAmount + bonusAmount;
 
